@@ -1,25 +1,25 @@
 import logo from "./logo.svg";
 import "./App.css";
-import TodoListSystem from "./TodoListSystem";
-import Vision from "./Vision";
+// import TodoListSystem from "./TodoListSystem";
+// import Vision from "./Vision";
 
 import { useState, useEffect } from "react";
-import Practise from "./Practise";
+// import Practise from "./Practise";
 import Cart from "./Cart.js";
-import Products from "./Products.js";
+// import Products from "./Products.js";
 import jwt_decode from "jwt-decode";
 import MultipleCategoryFilter from "./MultipleCategoryFilter";
 import ProductList from "./ProductList.js";
-import { products as allProducts } from "./ProductData.js";
+// import { products as allProducts } from "./ProductData.js";
 import SortProducts from "./SortProducts";
 import Pagination from "./Pagination.js";
-import Test from "./Test.js";
-import Counter from "./Counter";
+// import Test from "./Test.js";
+// import Counter from "./Counter";
 import * as React from "react";
 import { GoogleLogin } from "@react-oauth/google";
 import { googleLogout } from "@react-oauth/google";
 // import getStripe from "./lib/getStripe";
-import env from "react-dotenv";
+// import env from "react-dotenv";
 import Payment from "./Payment";
 
 // import { useGoogleLogin } from "@react-oauth/google";
@@ -32,7 +32,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 const todos = ["todo1", "todo2", "todo3"];
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  // const [counter, setCounter] = useState(0);
   const [mode, setMode] = useState("day");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
