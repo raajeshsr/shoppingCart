@@ -23,7 +23,7 @@ export default function Payment({ products }) {
     };
 
     const res = await fetch(
-      "https://shoppingcart-0tc6.onrender.com:4242/create-checkout-session",
+      "https://shoppingcart-0tc6.onrender.com/create-checkout-session",
       options
     );
 
