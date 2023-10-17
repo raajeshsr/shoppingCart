@@ -74,8 +74,8 @@ app.post("/create-checkout-session", async (req, res) => {
       // },
     ],
     mode: "payment",
-    success_url: `http://localhost:4242`,
-    cancel_url: `http://localhost:4242`,
+    success_url: "https://shoppingcart-0tc6.onrender.com/create-checkout-session",
+    cancel_url: "https://shoppingcart-0tc6.onrender.com/create-checkout-session",
   });
   console.log(session);
 
